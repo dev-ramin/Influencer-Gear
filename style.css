@@ -139,3 +139,15 @@ Last
     color: white;
     transition: .3s;
 }
+footer{
+    color: white;
+    background-color: rgb(48, 48, 139);
+    text-align: center;
+    height: 200px;
+}
+.footer-section h2{
+    padding-top: 50px;
+}
+.fa-brands{
+    font-size: 30px;
+}
