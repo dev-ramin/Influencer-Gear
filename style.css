@@ -66,3 +66,26 @@ span{
 .logo-section img{
     padding: 25px 25px;
 }
+.Product-Section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#Product-Title{
+    padding-top: 25px;
+    padding-bottom: 35px;
+    text-align: center;
+}
+.Products-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 0px 75px;
+}
+.product{
+    background-color:#B0E0E6;
+    padding: 15px;
+    border-radius: 5px;
+}
+.product img{
+    width: 100%;
+}
