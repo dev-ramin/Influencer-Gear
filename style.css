@@ -30,3 +30,27 @@ span{
 .Main-menu a:hover{
     color: tomato;
 }
+.container{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 75px;
+}
+.half-width h1{
+    font-size: 50px;
+}
+.half-width h1, p{
+    margin-bottom: 25px;
+}
+.half-width img{
+    width: 70%;
+    margin-left: 75px;
+}
+.link-button{
+    color: white;
+    font-weight: 600;
+    background-color: rgba(255, 0, 0, 0.685);
+    padding: 10px 30px;
+    border-radius: 25px;
+}
