@@ -32,6 +32,7 @@ span{
 }
 .container{
     display: flex;
+    margin-bottom: 30px;
 }
 .half-width{
     width: 50%;
@@ -53,4 +54,15 @@ span{
     background-color: rgba(255, 0, 0, 0.685);
     padding: 10px 30px;
     border-radius: 25px;
+}
+.logo-container{
+    margin-bottom: 50px;
+}
+.logo-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-section img{
+    padding: 25px 25px;
 }
