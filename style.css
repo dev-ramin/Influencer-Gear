@@ -32,7 +32,7 @@ span{
 }
 .container{
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
 }
 .half-width{
     width: 50%;
@@ -81,6 +81,10 @@ span{
     gap: 10px;
     margin: 0px 75px;
 }
+.product:hover{
+    border: 2px solid orange;
+    transition: .3s;
+}
 .product{
     background-color:#B0E0E6;
     padding: 15px;
@@ -88,4 +92,50 @@ span{
 }
 .product img{
     width: 100%;
+}
+.fa-star, .fa-star-half-stroke{
+    color: goldenrod;
+    font-size: smaller;
+}
+#See-More{
+    margin-left: 90%;
+}
+/* -----------
+Last
+-------------- */
+
+.container-last{
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.half-width-last{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.half-width-last h2{
+    font-size: 40px;
+}
+.half-width h2, p{
+    margin-bottom: 25px;
+}
+.half-width img{
+    width: 50%;
+    margin-left: 75px;
+}
+.link-button-Two{
+    color: white;
+    font-weight: 600;
+    background-color: rgba(255, 0, 0, 0.685);
+    padding: 10px 30px;
+}
+.link-button-Two:hover{
+    background-color: green;
+    color: white;
+    transition: .3s;
+}
+.link-button:hover{
+    background-color: green;
+    color: white;
+    transition: .3s;
 }
