@@ -82,7 +82,7 @@ span{
     margin: 0px 75px;
 }
 .product:hover{
-    border: 2px solid orange;
+    border: 1px solid green;
     transition: .3s;
 }
 .product{
